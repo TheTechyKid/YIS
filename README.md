@@ -1,6 +1,6 @@
 # YIS 
 
-YIS (YouTube Instant Search) is a Python desktop application that allows you to search for and download YouTube videos using their URLs.
+YIS (YouTube Info Search) is a Python desktop application that allows you to search for and download YouTube videos using their URLs.
 
 # Installation
 
