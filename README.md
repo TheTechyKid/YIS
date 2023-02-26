@@ -6,9 +6,10 @@ YIS (YouTube Instant Search) is a Python desktop application that allows you to 
 
 To run this app, you'll need to install the following dependencies:
 
-fast_youtube_search
-pytube
-customtkinter
+1. fast_youtube_search
+2. pytube
+3. customtkinter
+
 You can install them all at once by running: 
 `pip install fast_youtube_search pytube customtkinter`
 
