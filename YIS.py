@@ -10,7 +10,7 @@ from os import startfile
 CTK.set_appearance_mode("System")
 CTK.set_default_color_theme("blue")
 
-VIDEO_DIR = "C:\\Users\\Gianclarence Solas\\Desktop\\python books\\YI\\Video"
+VIDEO_DIR = "C:\\Video"
 
 class App(CTK.CTk):
     def __init__(self):
@@ -38,7 +38,7 @@ class App(CTK.CTk):
             
             charters = ["|", "'", "?", ",", ":", "~", "#", "$", "%", "^", "/", '"']
             
-            YouTube("https://www.youtube.com/watch?v="+url).streams.get_highest_resolution().download(output_path=r"C:\Users\Gianclarence Solas\Desktop\python books\YI\Video")
+            YouTube("https://www.youtube.com/watch?v="+url).streams.get_highest_resolution().download(output_path=r"C:\Video")
             title = Url.GetTitle("https://www.youtube.com/watch?v="+url)
             for x in range(len(charters)):
                 title = title.replace(charters[x], "")
