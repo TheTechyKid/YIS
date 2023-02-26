@@ -1,4 +1,4 @@
-# YIS
+# YIS.py
 
 from pprint import pformat
 from tkinter import *
@@ -6,11 +6,12 @@ from fast_youtube_search import search_youtube
 import customtkinter as CTK
 from pytube import YouTube
 from os import startfile
+import pathlib
 
 CTK.set_appearance_mode("System")
 CTK.set_default_color_theme("blue")
 
-VIDEO_DIR = "C:\\Video"
+VIDEO_DIR = pathlib.PurePath("Video")
 
 class App(CTK.CTk):
     def __init__(self):
@@ -38,7 +39,7 @@ class App(CTK.CTk):
             
             charters = ["|", "'", "?", ",", ":", "~", "#", "$", "%", "^", "/", '"']
             
-            YouTube("https://www.youtube.com/watch?v="+url).streams.get_highest_resolution().download(output_path=r"C:\Video")
+            YouTube("https://www.youtube.com/watch?v="+url).streams.get_highest_resolution().download(output_path=VIDEO_DIR)
             title = Url.GetTitle("https://www.youtube.com/watch?v="+url)
             for x in range(len(charters)):
                 title = title.replace(charters[x], "")
