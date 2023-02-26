@@ -9,6 +9,8 @@ To run this app, you'll need to install the following dependencies:
 1. fast_youtube_search
 2. pytube
 3. customtkinter
+4. pprint
+5. pathlib
 
 You can install them all at once by running: 
 `pip install fast_youtube_search pytube customtkinter`
