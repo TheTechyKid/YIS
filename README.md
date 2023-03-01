@@ -2,7 +2,7 @@
 
 YIS (YouTube Info Search) is a Python desktop application that allows you to search for and download YouTube videos using their URLs.
 
-# Installation
+## Installation
 
 To run this app, you'll need to install the following dependencies:
 
@@ -15,7 +15,7 @@ To run this app, you'll need to install the following dependencies:
 You can install them all at once by running: 
 `pip install fast_youtube_search pytube customtkinter`
 
-# Usage
+## Usage
 
 To use YIS, simply run the YIS.py file in your Python environment. The app will open and you can begin using it immediately.
 
@@ -31,6 +31,6 @@ To run this project all you have to do is download this folder and run the YIS.p
 
 Make sure the Video file is in the folder with the YIS.py file
 
-# License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
